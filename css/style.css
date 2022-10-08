@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+  --LightCyan: hsl(193, 38%, 86%);
+  --NeonGreen: hsl(150, 100%, 66%);
+
+  --GrayishBlue: hsl(217, 19%, 38%);
+  --DarkGrayishBlue: hsl(217, 19%, 24%);
+  --DarkBlue: hsl(218, 23%, 16%);
+
+  --Manrope: "Manrope", sans-serif;
+}
+
+body {
+  background-color: var(--DarkBlue);
+  color: var(--LightCyan);
+  /* min-width: auto;
+  max-width: 100%;
+  min-height: auto;
+  max-height: 100vh; */
+}
+
+.box {
+  background-color: var(--DarkGrayishBlue);
+  border-radius: 10px;
+  min-height: 300px;
+}
+
+.box h6 {
+  color: var(--NeonGreen);
+  text-transform: uppercase;
+  letter-spacing: 0.51rem;
+  font-size: 0.8rem;
+}
+
+.quote {
+  font-size: 28px;
+  font-family: var(--Manrope);
+  min-height: 145px;
+}
+
+.circle {
+  background-color: var(--NeonGreen);
+  border: 0;
+  border-radius: 100%;
+  padding: 1rem;
+  translate: 0 45%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.circle:hover {
+  background-color: var(--LightCyan);
+}
+
+.dice {
+  width: 2rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: var(--NeonGreen);
+}
